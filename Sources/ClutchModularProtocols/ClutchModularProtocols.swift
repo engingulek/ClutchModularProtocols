@@ -8,3 +8,8 @@ import SwiftUI
 public protocol OnboardingModuleProtocol {
     func createOnboardingModuleView() -> AnyView
 }
+
+
+public protocol AccountModuleProtocol {
+    func createAccountModule() -> AnyView
+}
