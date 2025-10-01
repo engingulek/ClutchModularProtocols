@@ -33,3 +33,8 @@ public protocol FavMatchListModuleProtocol {
 public protocol StandingModuleProtocol {
     func createStandingModule() -> AnyView
 }
+
+//MARK: TabViewModule
+public protocol TabViewModuleProtocol {
+    func createTabViewModule() -> AnyView
+}
